@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amediyar Auganbay — Designer & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #1a1a1a;
+      --gray: #666;
+      --accent: #2563eb;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: white;
+      padding: 60px 50px;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+    }
+    h1 {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      letter-spacing: -1px;
+    }
+    h2 {
+      font-size: 15px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--accent);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: var(--gray);
+      margin-bottom: 24px;
+    }
+    .highlight { color: var(--text); font-weight: 500; }
+    .section { margin-top: 48px; }
+    .experience ul {
+      list-style: none;
+      margin-top: 12px;
+    }
+    .experience li {
+      font-size: 17px;
+      padding: 9px 0;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .experience li:last-child { border-bottom: none; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    a:hover { text-decoration: underline; }
+    footer {
+      margin-top: 80px;
+      text-align: center;
+      font-size: 15px;
+      color: #777;
+    }
+    footer a { margin: 0 12px; }
+    @media (max-width: 640px) {
+      .container { padding: 40px 30px; }
+      h1 { font-size: 36px; }
+      p { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Akmediyar Auganbay</h1>
+      <h2><i data-lucide="pen-tool"></i> UI/UX Designer × Frontend Developer</h2>
+    </header>
+
+    <main>
+      <p>
+        First-year Computer Science student with professional mid-level design experience. 
+        Passionate about blending <span class="highlight">creativity</span> and 
+        <span class="highlight">technical precision</span> to craft modern, functional, 
+        and user-centered digital products.
+      </p>
+
+      <div class="section">
+        <p>
+          Currently growing in <strong>UI/UX design</strong> and <strong>frontend development</strong>, 
+          while expanding knowledge in software engineering and interface development. 
+          Motivated, detail-oriented, and always eager to master new tools and approaches.
+        </p>
+      </div>
+
+      <div class="section experience">
+        <h2><i data-lucide="briefcase"></i> Professional Experience</h2>
+        <ul>
+          <li><i data-lucide="chevron-right"></i> JUZ40 - Mid-level Designer</li>
+          <li><i data-lucide="chevron-right"></i> Sabaq Online - Mid-level Designer</li>
+          <li><i data-lucide="chevron-right"></i> Aleem - Mid-level Designer</li>
+          <li><i data-lucide="chevron-right"></i> Baipket - Mid-level Designer</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        <a href="mailto:aahmedkino@gmail.com"><i data-lucide="mail"></i> Email</a>
+    
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
